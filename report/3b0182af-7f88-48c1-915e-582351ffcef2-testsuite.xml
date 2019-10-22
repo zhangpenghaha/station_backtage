@@ -1,0 +1,357 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571710018360" stop="1571710062839">
+  <name>station_map_backstage.scripts.test_20_home</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571710018360" status="passed" stop="1571710019605">
+      <name>Test_station_news.test_data_board</name>
+      <attachments>
+        <attachment source="5fc565e5-12e2-4b55-89bc-10cec934cee4-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710019400" status="passed" stop="1571710019494">
+          <name>点击数据看板</name>
+          <title>点击数据看板</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710019494" status="passed" stop="1571710019540">
+          <name>获取站点接入总量文本</name>
+          <title>获取站点接入总量文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710019540" status="passed" stop="1571710019572">
+          <name>获取用户总量文本</name>
+          <title>获取用户总量文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710019572" status="passed" stop="1571710019604">
+          <name>获取会员总量文本</name>
+          <title>获取会员总量文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710021928" status="passed" stop="1571710023493">
+      <name>Test_station_news.test_info_news</name>
+      <attachments>
+        <attachment source="74a09188-d270-4979-81aa-d7d5c0ddc5fc-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710022932" status="passed" stop="1571710023037">
+          <name>点击内容和信息</name>
+          <title>点击内容和信息</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710023037" status="passed" stop="1571710023238">
+          <name>获取添加资讯文本</name>
+          <title>获取添加资讯文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710023238" status="passed" stop="1571710023340">
+          <name>获取车站资讯文本</name>
+          <title>获取车站资讯文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710023340" status="passed" stop="1571710023493">
+          <name>获取内容配置文本</name>
+          <title>获取内容配置文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710025847" status="passed" stop="1571710027078">
+      <name>Test_station_news.test_sku</name>
+      <attachments>
+        <attachment source="5f9b99c0-a017-4d19-bf98-8c2771d7fdf5-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710026851" status="passed" stop="1571710026997">
+          <name>点击服务SKU</name>
+          <title>点击服务SKU</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710026997" status="passed" stop="1571710027078">
+          <name>获取车站大屏文本</name>
+          <title>获取车站大屏文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710029417" status="passed" stop="1571710030650">
+      <name>Test_station_news.test_business</name>
+      <attachments>
+        <attachment source="e2ed3b0e-9e5f-4992-8dca-0c2c8c7bda83-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710030421" status="passed" stop="1571710030538">
+          <name>点击商业管理</name>
+          <title>点击商业管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710030538" status="passed" stop="1571710030649">
+          <name>获取站内商业文本</name>
+          <title>获取站内商业文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710033053" status="passed" stop="1571710034475">
+      <name>Test_station_news.test_iot</name>
+      <attachments>
+        <attachment source="fe5864c9-b787-4294-b957-c4fdcef6ba97-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710034057" status="passed" stop="1571710034175">
+          <name>点击IOT管理</name>
+          <title>点击IOT管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710034175" status="passed" stop="1571710034311">
+          <name>获取概况文本</name>
+          <title>获取概况文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710034311" status="passed" stop="1571710034405">
+          <name>获取纸巾机管理文本</name>
+          <title>获取纸巾机管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710034405" status="passed" stop="1571710034475">
+          <name>获取快递柜管理文本</name>
+          <title>获取快递柜管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710036833" status="passed" stop="1571710038107">
+      <name>Test_station_news.test_vip</name>
+      <attachments>
+        <attachment source="8867c9c2-0e8c-49db-a3fa-0d73f67efba3-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710037837" status="passed" stop="1571710037965">
+          <name>点击会员管理</name>
+          <title>点击会员管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710037965" status="passed" stop="1571710038107">
+          <name>获取平台会员文本</name>
+          <title>获取平台会员文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710040444" status="passed" stop="1571710041768">
+      <name>Test_station_news.test_system_contral</name>
+      <attachments>
+        <attachment source="6a89d516-c160-4e50-a3dc-a132c32921fa-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710041448" status="passed" stop="1571710041559">
+          <name>点击系统管理</name>
+          <title>点击系统管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710041559" status="passed" stop="1571710041640">
+          <name>获取用户管理文本</name>
+          <title>获取用户管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710041640" status="passed" stop="1571710041703">
+          <name>获取角色管理文本</name>
+          <title>获取角色管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710041703" status="passed" stop="1571710041768">
+          <name>获取菜单管理文本</name>
+          <title>获取菜单管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710044100" status="passed" stop="1571710045459">
+      <name>Test_station_news.test_mall_contral</name>
+      <attachments>
+        <attachment source="dcbeed5e-f459-4a11-9a1e-ecda9bbc6b90-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710045103" status="passed" stop="1571710045256">
+          <name>点击商城管理</name>
+          <title>点击商城管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710045256" status="passed" stop="1571710045335">
+          <name>获取商品管理文本</name>
+          <title>获取商品管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710045335" status="passed" stop="1571710045395">
+          <name>获取订单管理文本</name>
+          <title>获取订单管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710045395" status="passed" stop="1571710045459">
+          <name>获取售后管理文本</name>
+          <title>获取售后管理文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571710047776" status="passed" stop="1571710062839">
+      <name>Test_station_news.test_select_station</name>
+      <attachments>
+        <attachment source="3abfee92-622d-4b56-bb51-82d806a1aa3d-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710048782" status="passed" stop="1571710048902">
+          <name>点击切换站点</name>
+          <title>点击切换站点</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710048902" status="passed" stop="1571710051699">
+          <name>选择具体火车站</name>
+          <title>选择具体火车站</title>
+          <attachments>
+            <attachment source="166af7ea-f2bc-4d99-9781-8261b8c445c1-attachment.txt" title="点击罗山站" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1571710051699" status="passed" stop="1571710052369">
+          <name>获取站点名</name>
+          <title>获取站点名</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710054369" status="passed" stop="1571710054488">
+          <name>点击切换站点</name>
+          <title>点击切换站点</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710054488" status="passed" stop="1571710057086">
+          <name>选择具体火车站</name>
+          <title>选择具体火车站</title>
+          <attachments>
+            <attachment source="05857556-3ead-4e07-bc95-1a7cd4c49508-attachment.txt" title="点击潜江站" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1571710057086" status="passed" stop="1571710057672">
+          <name>获取站点名</name>
+          <title>获取站点名</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710059672" status="passed" stop="1571710059789">
+          <name>点击切换站点</name>
+          <title>点击切换站点</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710059789" status="passed" stop="1571710062206">
+          <name>选择具体火车站</name>
+          <title>选择具体火车站</title>
+          <attachments>
+            <attachment source="9f830166-7987-4fd8-97ef-f48dbae364af-attachment.txt" title="点击武昌站" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1571710062206" status="passed" stop="1571710062839">
+          <name>获取站点名</name>
+          <title>获取站点名</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

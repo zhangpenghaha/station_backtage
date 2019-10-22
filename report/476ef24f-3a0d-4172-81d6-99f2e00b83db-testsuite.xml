@@ -1,0 +1,49 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571710002195" stop="1571710014356">
+  <name>station_map_backstage.scripts.test_1_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571710002195" status="passed" stop="1571710014356">
+      <name>Test_station_news.test_add_station_news</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710009500" status="passed" stop="1571710010984">
+          <name>输入用户名</name>
+          <title>输入用户名</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710010985" status="passed" stop="1571710011138">
+          <name>输入密码</name>
+          <title>输入密码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710011138" status="passed" stop="1571710011268">
+          <name>点击登录</name>
+          <title>点击登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710011268" status="passed" stop="1571710014312">
+          <name>获取数据看板文本</name>
+          <title>获取数据看板文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571710014312" status="passed" stop="1571710014356">
+          <name>获取内容和信息文本</name>
+          <title>获取内容和信息文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

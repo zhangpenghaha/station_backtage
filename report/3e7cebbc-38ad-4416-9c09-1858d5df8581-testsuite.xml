@@ -1,0 +1,25 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571710067177" stop="1571710067441">
+  <name>station_map_backstage.scripts.test_40_info_news</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571710067177" status="passed" stop="1571710067441">
+      <name>TestInfoNews.test_info_news</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4564-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571710067354" status="passed" stop="1571710067441">
+          <name>获取添加资讯文本</name>
+          <title>获取添加资讯文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

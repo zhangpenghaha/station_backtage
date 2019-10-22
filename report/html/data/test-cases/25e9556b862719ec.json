@@ -1,0 +1,136 @@
+{
+  "uid" : "25e9556b862719ec",
+  "name" : "Test_station_news.test_mall_contral",
+  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_mall_contral",
+  "historyId" : "326246ac155cee43162e08b5ff55b1b9",
+  "time" : {
+    "start" : 1571710044100,
+    "stop" : 1571710045459,
+    "duration" : 1359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击商城管理",
+      "time" : {
+        "start" : 1571710045103,
+        "stop" : 1571710045256,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取商品管理文本",
+      "time" : {
+        "start" : 1571710045256,
+        "stop" : 1571710045335,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取订单管理文本",
+      "time" : {
+        "start" : 1571710045335,
+        "stop" : 1571710045395,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取售后管理文本",
+      "time" : {
+        "start" : 1571710045395,
+        "stop" : 1571710045459,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "86893150d2cc4ea2",
+      "name" : "截图",
+      "source" : "86893150d2cc4ea2.png",
+      "type" : "image/png",
+      "size" : 42847
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_mall_contral"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25e9556b862719ec.json",
+  "parameterValues" : [ ]
+}

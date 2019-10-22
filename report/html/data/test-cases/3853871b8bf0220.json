@@ -1,0 +1,136 @@
+{
+  "uid" : "3853871b8bf0220",
+  "name" : "Test_station_news.test_system_contral",
+  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_system_contral",
+  "historyId" : "45964696ee950c1bfe480dcd3d4030e5",
+  "time" : {
+    "start" : 1571710040444,
+    "stop" : 1571710041768,
+    "duration" : 1324
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击系统管理",
+      "time" : {
+        "start" : 1571710041448,
+        "stop" : 1571710041559,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取用户管理文本",
+      "time" : {
+        "start" : 1571710041559,
+        "stop" : 1571710041640,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取角色管理文本",
+      "time" : {
+        "start" : 1571710041640,
+        "stop" : 1571710041703,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取菜单管理文本",
+      "time" : {
+        "start" : 1571710041703,
+        "stop" : 1571710041768,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "bdc3ec51e74571a2",
+      "name" : "截图",
+      "source" : "bdc3ec51e74571a2.png",
+      "type" : "image/png",
+      "size" : 36217
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_system_contral"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3853871b8bf0220.json",
+  "parameterValues" : [ ]
+}

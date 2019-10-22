@@ -1,0 +1,145 @@
+{
+  "uid" : "ea219725ec09c3e8",
+  "name" : "Test_station_news.test_add_station_news",
+  "fullName" : "station_map_backstage.scripts.test_1_login.Test_station_news.test_add_station_news",
+  "historyId" : "13b3e65ca8e47b3c611e2c47aa2b0cee",
+  "time" : {
+    "start" : 1571710002195,
+    "stop" : 1571710014356,
+    "duration" : 12161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1571710009500,
+        "stop" : 1571710010984,
+        "duration" : 1484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1571710010985,
+        "stop" : 1571710011138,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1571710011138,
+        "stop" : 1571710011268,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取数据看板文本",
+      "time" : {
+        "start" : 1571710011268,
+        "stop" : 1571710014312,
+        "duration" : 3044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取内容和信息文本",
+      "time" : {
+        "start" : 1571710014312,
+        "stop" : 1571710014356,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_1_login"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_1_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_add_station_news"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_1_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea219725ec09c3e8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid" : "1f958a87cccee25f",
+  "name" : "Test_station_news.test_iot",
+  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_iot",
+  "historyId" : "bbb934c8b9820a726d668b58d9a9ed19",
+  "time" : {
+    "start" : 1571710033053,
+    "stop" : 1571710034475,
+    "duration" : 1422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击IOT管理",
+      "time" : {
+        "start" : 1571710034057,
+        "stop" : 1571710034175,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取概况文本",
+      "time" : {
+        "start" : 1571710034175,
+        "stop" : 1571710034311,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取纸巾机管理文本",
+      "time" : {
+        "start" : 1571710034311,
+        "stop" : 1571710034405,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取快递柜管理文本",
+      "time" : {
+        "start" : 1571710034405,
+        "stop" : 1571710034475,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "48fc2119098a8064",
+      "name" : "截图",
+      "source" : "48fc2119098a8064.png",
+      "type" : "image/png",
+      "size" : 38087
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_iot"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f958a87cccee25f.json",
+  "parameterValues" : [ ]
+}

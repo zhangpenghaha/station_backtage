@@ -1,0 +1,153 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "station_map_backstage.scripts",
+    "children" : [ {
+      "name" : "test_1_login",
+      "children" : [ {
+        "name" : "Test_station_news.test_add_station_news",
+        "uid" : "ea219725ec09c3e8",
+        "parentUid" : "f3f14cf9a66f2be52382dc60928f7bd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710002195,
+          "stop" : 1571710014356,
+          "duration" : 12161
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3f14cf9a66f2be52382dc60928f7bd9"
+    }, {
+      "name" : "test_20_home",
+      "children" : [ {
+        "name" : "Test_station_news.test_data_board",
+        "uid" : "e4c0d2cf15476b89",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710018360,
+          "stop" : 1571710019605,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_info_news",
+        "uid" : "2a4b563bed63f747",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710021928,
+          "stop" : 1571710023493,
+          "duration" : 1565
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_sku",
+        "uid" : "1e4e6c11bac1c218",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710025847,
+          "stop" : 1571710027078,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_business",
+        "uid" : "77eae102e2931304",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710029417,
+          "stop" : 1571710030650,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_iot",
+        "uid" : "1f958a87cccee25f",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710033053,
+          "stop" : 1571710034475,
+          "duration" : 1422
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_vip",
+        "uid" : "9aaf2a67b860a65e",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710036833,
+          "stop" : 1571710038107,
+          "duration" : 1274
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_system_contral",
+        "uid" : "3853871b8bf0220",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710040444,
+          "stop" : 1571710041768,
+          "duration" : 1324
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_mall_contral",
+        "uid" : "25e9556b862719ec",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710044100,
+          "stop" : 1571710045459,
+          "duration" : 1359
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_select_station",
+        "uid" : "b1cf0c24bc40517e",
+        "parentUid" : "8e614d9bfd4fd85483359ddf9d735e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710047776,
+          "stop" : 1571710062839,
+          "duration" : 15063
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e614d9bfd4fd85483359ddf9d735e4a"
+    }, {
+      "name" : "test_40_info_news",
+      "children" : [ {
+        "name" : "TestInfoNews.test_info_news",
+        "uid" : "4fd35068e4aee3cb",
+        "parentUid" : "18765e69dae6d3c2f9484bc431047c8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571710067177,
+          "stop" : 1571710067441,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18765e69dae6d3c2f9484bc431047c8f"
+    } ],
+    "uid" : "station_map_backstage.scripts"
+  } ]
+}

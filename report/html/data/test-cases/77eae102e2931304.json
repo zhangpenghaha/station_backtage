@@ -1,0 +1,106 @@
+{
+  "uid" : "77eae102e2931304",
+  "name" : "Test_station_news.test_business",
+  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_business",
+  "historyId" : "5e12e974187dea0701bdf180d43bbb03",
+  "time" : {
+    "start" : 1571710029417,
+    "stop" : 1571710030650,
+    "duration" : 1233
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击商业管理",
+      "time" : {
+        "start" : 1571710030421,
+        "stop" : 1571710030538,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取站内商业文本",
+      "time" : {
+        "start" : 1571710030538,
+        "stop" : 1571710030649,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "696886acaec78eb7",
+      "name" : "截图",
+      "source" : "696886acaec78eb7.png",
+      "type" : "image/png",
+      "size" : 58091
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_business"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77eae102e2931304.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,229 @@
+{
+  "uid" : "b1cf0c24bc40517e",
+  "name" : "Test_station_news.test_select_station",
+  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_select_station",
+  "historyId" : "66c74375517171694a65928766c39d1d",
+  "time" : {
+    "start" : 1571710047776,
+    "stop" : 1571710062839,
+    "duration" : 15063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击切换站点",
+      "time" : {
+        "start" : 1571710048782,
+        "stop" : 1571710048902,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择具体火车站",
+      "time" : {
+        "start" : 1571710048902,
+        "stop" : 1571710051699,
+        "duration" : 2797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "945ed9d6792d40c2",
+        "name" : "点击罗山站",
+        "source" : "945ed9d6792d40c2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取站点名",
+      "time" : {
+        "start" : 1571710051699,
+        "stop" : 1571710052369,
+        "duration" : 670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击切换站点",
+      "time" : {
+        "start" : 1571710054369,
+        "stop" : 1571710054488,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择具体火车站",
+      "time" : {
+        "start" : 1571710054488,
+        "stop" : 1571710057086,
+        "duration" : 2598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8228b1831281733",
+        "name" : "点击潜江站",
+        "source" : "c8228b1831281733.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取站点名",
+      "time" : {
+        "start" : 1571710057086,
+        "stop" : 1571710057672,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击切换站点",
+      "time" : {
+        "start" : 1571710059672,
+        "stop" : 1571710059789,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择具体火车站",
+      "time" : {
+        "start" : 1571710059789,
+        "stop" : 1571710062206,
+        "duration" : 2417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "441defca4b6a937e",
+        "name" : "点击武昌站",
+        "source" : "441defca4b6a937e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取站点名",
+      "time" : {
+        "start" : 1571710062206,
+        "stop" : 1571710062839,
+        "duration" : 633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "802b412b1ccbba0e",
+      "name" : "截图",
+      "source" : "802b412b1ccbba0e.png",
+      "type" : "image/png",
+      "size" : 53427
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_station_news.test_select_station"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_20_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1cf0c24bc40517e.json",
+  "parameterValues" : [ ]
+}

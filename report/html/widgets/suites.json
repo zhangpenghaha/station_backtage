@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "e37e37ddb9880c1ac1aeae570abb5bdb",
+    "name" : "station_map_backstage.scripts.test_20_home",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "b5862ea710f0141310a5a8297004141b",
+    "name" : "station_map_backstage.scripts.test_1_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ccb54416b6ff4a12335758ef59e9c054",
+    "name" : "station_map_backstage.scripts.test_40_info_news",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

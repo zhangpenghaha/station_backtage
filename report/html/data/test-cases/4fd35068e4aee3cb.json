@@ -1,0 +1,85 @@
+{
+  "uid" : "4fd35068e4aee3cb",
+  "name" : "TestInfoNews.test_info_news",
+  "fullName" : "station_map_backstage.scripts.test_40_info_news.TestInfoNews.test_info_news",
+  "historyId" : "bb3b9aaa17e390f396153a0131c6ff86",
+  "time" : {
+    "start" : 1571710067177,
+    "stop" : 1571710067441,
+    "duration" : 264
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取添加资讯文本",
+      "time" : {
+        "start" : 1571710067354,
+        "stop" : 1571710067441,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "station_map_backstage.scripts.test_40_info_news"
+  }, {
+    "name" : "testClass",
+    "value" : "station_map_backstage.scripts.test_40_info_news"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestInfoNews.test_info_news"
+  }, {
+    "name" : "package",
+    "value" : "station_map_backstage.scripts.test_40_info_news"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fd35068e4aee3cb.json",
+  "parameterValues" : [ ]
+}
