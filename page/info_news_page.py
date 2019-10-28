@@ -1,7 +1,7 @@
 import allure
 from selenium.webdriver.common.by import By
 
-from station_map_backstage.base.base_action import BaseAction
+from station_backtage.base.base_action import BaseAction
 
 
 class InfoNews(BaseAction):

@@ -1,8 +1,8 @@
 import time
 import allure
 import pytest
-from station_map_backstage.base.base_driver import InitDriver
-from station_map_backstage.page.page import Page
+from station_backtage.base.base_driver import InitDriver
+from station_backtage.page.page import Page
 
 
 class TestInfoNews:

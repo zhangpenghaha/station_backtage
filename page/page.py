@@ -1,13 +1,13 @@
-from station_map_backstage.page.business_page import Business
-from station_map_backstage.page.data_board_page import DataBoard
-from station_map_backstage.page.home_page import HomePage
-from station_map_backstage.page.iot_page import Iot
-from station_map_backstage.page.login_page import Login
-from station_map_backstage.page.info_news_page import InfoNews
-from station_map_backstage.page.mall_contral_page import MallContral
-from station_map_backstage.page.sku_page import Sku
-from station_map_backstage.page.system_contral_page import SystemContral
-from station_map_backstage.page.vip_page import Vip
+from station_backtage.page.business_page import Business
+from station_backtage.page.data_board_page import DataBoard
+from station_backtage.page.home_page import HomePage
+from station_backtage.page.iot_page import Iot
+from station_backtage.page.login_page import Login
+from station_backtage.page.info_news_page import InfoNews
+from station_backtage.page.mall_contral_page import MallContral
+from station_backtage.page.sku_page import Sku
+from station_backtage.page.system_contral_page import SystemContral
+from station_backtage.page.vip_page import Vip
 
 
 class Page:
