@@ -1,12 +1,12 @@
 {
-  "uid" : "4fd35068e4aee3cb",
+  "uid" : "73e518d664639319",
   "name" : "TestInfoNews.test_info_news",
-  "fullName" : "station_map_backstage.scripts.test_40_info_news.TestInfoNews.test_info_news",
-  "historyId" : "bb3b9aaa17e390f396153a0131c6ff86",
+  "fullName" : "station_backtage.scripts.test_40_info_news.TestInfoNews.test_info_news",
+  "historyId" : "c56b2d50dbe7f7164b9a34854065ce96",
   "time" : {
-    "start" : 1571710067177,
-    "stop" : 1571710067441,
-    "duration" : 264
+    "start" : 1572245230327,
+    "stop" : 1572245230623,
+    "duration" : 296
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,23 +18,23 @@
     "steps" : [ {
       "name" : "获取添加资讯文本",
       "time" : {
-        "start" : 1571710067354,
-        "stop" : 1571710067441,
-        "duration" : 87
+        "start" : 1572245230496,
+        "stop" : 1572245230623,
+        "duration" : 127
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 1,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   },
@@ -53,19 +53,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_40_info_news"
+    "value" : "station_backtage.scripts.test_40_info_news"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_40_info_news"
+    "value" : "station_backtage.scripts.test_40_info_news"
   }, {
     "name" : "testMethod",
     "value" : "TestInfoNews.test_info_news"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_40_info_news"
+    "value" : "station_backtage.scripts.test_40_info_news"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -80,6 +80,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4fd35068e4aee3cb.json",
+  "source" : "73e518d664639319.json",
   "parameterValues" : [ ]
 }

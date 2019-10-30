@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 
-class BaseAction:
+class BaseAction():
 
     def __init__(self, driver):
         self.driver = driver
@@ -69,6 +69,11 @@ class BaseAction:
     def find_by_text_div( self, text ):
         ele = By.XPATH, '//div[text()="{}"]'.format(text)
         return self.find_element(ele).text
+
+    def find_by_class_num(self, text, n):
+        ele = By.CLASS_NAME, '{}'.format(text)
+        return self.find_elements(ele)[n]
+
 
     # 点击span文本
     def click_span_text(self, text):

@@ -1,11 +1,11 @@
 {
-  "uid" : "77eae102e2931304",
+  "uid" : "efd77403afcb0022",
   "name" : "Test_station_news.test_business",
-  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_business",
-  "historyId" : "5e12e974187dea0701bdf180d43bbb03",
+  "fullName" : "station_backtage.scripts.test_20_home.Test_station_news.test_business",
+  "historyId" : "72429e99ca00bff390083d6b9a8550c5",
   "time" : {
-    "start" : 1571710029417,
-    "stop" : 1571710030650,
+    "start" : 1572245192804,
+    "stop" : 1572245194037,
     "duration" : 1233
   },
   "description" : "",
@@ -18,44 +18,44 @@
     "steps" : [ {
       "name" : "点击商业管理",
       "time" : {
-        "start" : 1571710030421,
-        "stop" : 1571710030538,
-        "duration" : 117
+        "start" : 1572245193807,
+        "stop" : 1572245193933,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "获取站内商业文本",
       "time" : {
-        "start" : 1571710030538,
-        "stop" : 1571710030649,
-        "duration" : 111
+        "start" : 1572245193933,
+        "stop" : 1572245194037,
+        "duration" : 104
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "696886acaec78eb7",
+      "uid" : "55079fc9d9ccfa95",
       "name" : "截图",
-      "source" : "696886acaec78eb7.png",
+      "source" : "55079fc9d9ccfa95.png",
       "type" : "image/png",
-      "size" : 58091
+      "size" : 59886
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 2,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 1
   },
@@ -74,19 +74,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testMethod",
     "value" : "Test_station_news.test_business"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -101,6 +101,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "77eae102e2931304.json",
+  "source" : "efd77403afcb0022.json",
   "parameterValues" : [ ]
 }

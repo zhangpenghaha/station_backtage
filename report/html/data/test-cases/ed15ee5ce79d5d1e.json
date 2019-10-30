@@ -1,12 +1,12 @@
 {
-  "uid" : "e4c0d2cf15476b89",
-  "name" : "Test_station_news.test_data_board",
-  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_data_board",
-  "historyId" : "85a3cb61410b5bb41d6a157f0ba82110",
+  "uid" : "ed15ee5ce79d5d1e",
+  "name" : "Test_station_news.test_info_news",
+  "fullName" : "station_backtage.scripts.test_20_home.Test_station_news.test_info_news",
+  "historyId" : "a9a2092b7b2c7419824e8b4c020ae23d",
   "time" : {
-    "start" : 1571710018360,
-    "stop" : 1571710019605,
-    "duration" : 1245
+    "start" : 1572245185539,
+    "stop" : 1572245186963,
+    "duration" : 1424
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,76 +16,76 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "点击数据看板",
+      "name" : "点击内容和信息",
       "time" : {
-        "start" : 1571710019400,
-        "stop" : 1571710019494,
-        "duration" : 94
+        "start" : 1572245186544,
+        "stop" : 1572245186635,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取站点接入总量文本",
+      "name" : "获取添加资讯文本",
       "time" : {
-        "start" : 1571710019494,
-        "stop" : 1571710019540,
-        "duration" : 46
+        "start" : 1572245186635,
+        "stop" : 1572245186849,
+        "duration" : 214
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取用户总量文本",
+      "name" : "获取车站资讯文本",
       "time" : {
-        "start" : 1571710019540,
-        "stop" : 1571710019572,
-        "duration" : 32
+        "start" : 1572245186849,
+        "stop" : 1572245186905,
+        "duration" : 56
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取会员总量文本",
+      "name" : "获取内容配置文本",
       "time" : {
-        "start" : 1571710019572,
-        "stop" : 1571710019604,
-        "duration" : 32
+        "start" : 1572245186905,
+        "stop" : 1572245186963,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "39a17cdc244122d2",
+      "uid" : "328731cafd3d5df4",
       "name" : "截图",
-      "source" : "39a17cdc244122d2.png",
+      "source" : "328731cafd3d5df4.png",
       "type" : "image/png",
-      "size" : 59925
+      "size" : 41538
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 4,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 1
   },
@@ -104,19 +104,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testMethod",
-    "value" : "Test_station_news.test_data_board"
+    "value" : "Test_station_news.test_info_news"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -131,6 +131,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e4c0d2cf15476b89.json",
+  "source" : "ed15ee5ce79d5d1e.json",
   "parameterValues" : [ ]
 }

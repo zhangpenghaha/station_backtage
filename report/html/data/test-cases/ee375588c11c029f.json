@@ -1,12 +1,12 @@
 {
-  "uid" : "ea219725ec09c3e8",
+  "uid" : "ee375588c11c029f",
   "name" : "Test_station_news.test_add_station_news",
-  "fullName" : "station_map_backstage.scripts.test_1_login.Test_station_news.test_add_station_news",
-  "historyId" : "13b3e65ca8e47b3c611e2c47aa2b0cee",
+  "fullName" : "station_backtage.scripts.test_1_login.Test_station_news.test_add_station_news",
+  "historyId" : "7e380ad8240d2afcc57b1c1662198b53",
   "time" : {
-    "start" : 1571710002195,
-    "stop" : 1571710014356,
-    "duration" : 12161
+    "start" : 1572245166077,
+    "stop" : 1572245177960,
+    "duration" : 11883
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,85 +18,97 @@
     "steps" : [ {
       "name" : "输入用户名",
       "time" : {
-        "start" : 1571710009500,
-        "stop" : 1571710010984,
-        "duration" : 1484
+        "start" : 1572245173871,
+        "stop" : 1572245174615,
+        "duration" : 744
       },
       "status" : "passed",
       "steps" : [ ],
-      "attachments" : [ ],
+      "attachments" : [ {
+        "uid" : "4390e61ec9cb7a3e",
+        "name" : "输入admin",
+        "source" : "4390e61ec9cb7a3e.txt",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 1
     }, {
       "name" : "输入密码",
       "time" : {
-        "start" : 1571710010985,
-        "stop" : 1571710011138,
-        "duration" : 153
+        "start" : 1572245174615,
+        "stop" : 1572245174834,
+        "duration" : 219
       },
       "status" : "passed",
       "steps" : [ ],
-      "attachments" : [ ],
+      "attachments" : [ {
+        "uid" : "790036f7f504c426",
+        "name" : "输入123456",
+        "source" : "790036f7f504c426.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 1
     }, {
       "name" : "点击登录",
       "time" : {
-        "start" : 1571710011138,
-        "stop" : 1571710011268,
+        "start" : 1572245174834,
+        "stop" : 1572245174964,
         "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "获取数据看板文本",
       "time" : {
-        "start" : 1571710011268,
-        "stop" : 1571710014312,
-        "duration" : 3044
+        "start" : 1572245174964,
+        "stop" : 1572245177904,
+        "duration" : 2940
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "获取内容和信息文本",
       "time" : {
-        "start" : 1571710014312,
-        "stop" : 1571710014356,
-        "duration" : 44
+        "start" : 1572245177904,
+        "stop" : 1572245177960,
+        "duration" : 56
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 5,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 2
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -113,19 +125,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_1_login"
+    "value" : "station_backtage.scripts.test_1_login"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_1_login"
+    "value" : "station_backtage.scripts.test_1_login"
   }, {
     "name" : "testMethod",
     "value" : "Test_station_news.test_add_station_news"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_1_login"
+    "value" : "station_backtage.scripts.test_1_login"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -140,6 +152,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ea219725ec09c3e8.json",
+  "source" : "ee375588c11c029f.json",
   "parameterValues" : [ ]
 }

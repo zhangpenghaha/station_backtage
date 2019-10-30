@@ -1,12 +1,12 @@
 {
-  "uid" : "25e9556b862719ec",
-  "name" : "Test_station_news.test_mall_contral",
-  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_mall_contral",
-  "historyId" : "326246ac155cee43162e08b5ff55b1b9",
+  "uid" : "8f0bf4a99327360d",
+  "name" : "Test_station_news.test_system_contral",
+  "fullName" : "station_backtage.scripts.test_20_home.Test_station_news.test_system_contral",
+  "historyId" : "b24ee456a0947b253b3be926ac36d36c",
   "time" : {
-    "start" : 1571710044100,
-    "stop" : 1571710045459,
-    "duration" : 1359
+    "start" : 1572245203724,
+    "stop" : 1572245205108,
+    "duration" : 1384
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,76 +16,76 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "点击商城管理",
+      "name" : "点击系统管理",
       "time" : {
-        "start" : 1571710045103,
-        "stop" : 1571710045256,
-        "duration" : 153
+        "start" : 1572245204726,
+        "stop" : 1572245204833,
+        "duration" : 107
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取商品管理文本",
+      "name" : "获取用户管理文本",
       "time" : {
-        "start" : 1571710045256,
-        "stop" : 1571710045335,
-        "duration" : 79
+        "start" : 1572245204833,
+        "stop" : 1572245204942,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取订单管理文本",
+      "name" : "获取角色管理文本",
       "time" : {
-        "start" : 1571710045335,
-        "stop" : 1571710045395,
-        "duration" : 60
+        "start" : 1572245204942,
+        "stop" : 1572245205014,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取售后管理文本",
+      "name" : "获取菜单管理文本",
       "time" : {
-        "start" : 1571710045395,
-        "stop" : 1571710045459,
-        "duration" : 64
+        "start" : 1572245205014,
+        "stop" : 1572245205108,
+        "duration" : 94
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "86893150d2cc4ea2",
+      "uid" : "31aece69d40af4a0",
       "name" : "截图",
-      "source" : "86893150d2cc4ea2.png",
+      "source" : "31aece69d40af4a0.png",
       "type" : "image/png",
-      "size" : 42847
+      "size" : 68571
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 4,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 1
   },
@@ -104,19 +104,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testMethod",
-    "value" : "Test_station_news.test_mall_contral"
+    "value" : "Test_station_news.test_system_contral"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -131,6 +131,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "25e9556b862719ec.json",
+  "source" : "8f0bf4a99327360d.json",
   "parameterValues" : [ ]
 }

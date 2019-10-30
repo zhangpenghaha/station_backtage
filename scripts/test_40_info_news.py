@@ -22,7 +22,7 @@ class TestInfoNews:
     @classmethod
     def teardown_class(cls):
         time.sleep(5)
-        InitDriver().quit_driver()
+        # InitDriver().quit_driver()
 
     @pytest.mark.order("10")
     # @pytest.mark.parametrize("args",read_excel("test_data.xlsx", ""))

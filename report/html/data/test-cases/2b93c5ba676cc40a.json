@@ -1,12 +1,12 @@
 {
-  "uid" : "9aaf2a67b860a65e",
-  "name" : "Test_station_news.test_vip",
-  "fullName" : "station_map_backstage.scripts.test_20_home.Test_station_news.test_vip",
-  "historyId" : "7eb967bc82a869707d7a777413bacefa",
+  "uid" : "2b93c5ba676cc40a",
+  "name" : "Test_station_news.test_sku",
+  "fullName" : "station_backtage.scripts.test_20_home.Test_station_news.test_sku",
+  "historyId" : "3932ffc23d0eceb8488ae0da898ba9f",
   "time" : {
-    "start" : 1571710036833,
-    "stop" : 1571710038107,
-    "duration" : 1274
+    "start" : 1572245189274,
+    "stop" : 1572245190473,
+    "duration" : 1199
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,46 +16,46 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "点击会员管理",
+      "name" : "点击服务SKU",
       "time" : {
-        "start" : 1571710037837,
-        "stop" : 1571710037965,
-        "duration" : 128
+        "start" : 1572245190275,
+        "stop" : 1572245190390,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "获取平台会员文本",
+      "name" : "获取车站大屏文本",
       "time" : {
-        "start" : 1571710037965,
-        "stop" : 1571710038107,
-        "duration" : 142
+        "start" : 1572245190390,
+        "stop" : 1572245190473,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "80e7ecd32275f49d",
+      "uid" : "56e5dfe8c82e2128",
       "name" : "截图",
-      "source" : "80e7ecd32275f49d.png",
+      "source" : "56e5dfe8c82e2128.png",
       "type" : "image/png",
-      "size" : 61302
+      "size" : 32994
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 2,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 1
   },
@@ -74,19 +74,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "4564-MainThread"
+    "value" : "12960-MainThread"
   }, {
     "name" : "suite",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testClass",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "testMethod",
-    "value" : "Test_station_news.test_vip"
+    "value" : "Test_station_news.test_sku"
   }, {
     "name" : "package",
-    "value" : "station_map_backstage.scripts.test_20_home"
+    "value" : "station_backtage.scripts.test_20_home"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -101,6 +101,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9aaf2a67b860a65e.json",
+  "source" : "2b93c5ba676cc40a.json",
   "parameterValues" : [ ]
 }

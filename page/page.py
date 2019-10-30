@@ -4,6 +4,8 @@ from station_backtage.page.home_page import HomePage
 from station_backtage.page.iot_page import Iot
 from station_backtage.page.login_page import Login
 from station_backtage.page.info_news_page import InfoNews
+from station_backtage.page.mall_contral_goods_contral_page import MallContralGoodsContral
+from station_backtage.page.mall_contral_order_contral_page import MallContralOrderContral
 from station_backtage.page.mall_contral_page import MallContral
 from station_backtage.page.sku_page import Sku
 from station_backtage.page.system_contral_page import SystemContral
@@ -65,3 +67,13 @@ class Page:
     def system_contral( self ):
         """系统管理"""
         return SystemContral(self.driver)
+
+    # MallContralGoodsContral 商城管理-商品管理
+    @property
+    def mall_contral_goods_contral( self ):
+        """商品管理"""
+        return MallContralGoodsContral(self.driver)
+
+    # MallContralOrderContral 商城管理-订单管理
+    def mall_contral_order_contral(self):
+        return MallContralOrderContral(self.driver)

@@ -4,141 +4,153 @@
   "children" : [ {
     "name" : "WIN-NPMSMCDMRF4",
     "children" : [ {
-      "name" : "4564-MainThread",
+      "name" : "12960-MainThread",
       "children" : [ {
-        "name" : "Test_station_news.test_mall_contral",
-        "uid" : "25e9556b862719ec",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
+        "name" : "Test_Mall_Contral.test_goods_contral",
+        "uid" : "b180a471c124f7e6",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "failed",
         "time" : {
-          "start" : 1571710044100,
-          "stop" : 1571710045459,
-          "duration" : 1359
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_select_station",
-        "uid" : "b1cf0c24bc40517e",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710047776,
-          "stop" : 1571710062839,
-          "duration" : 15063
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_system_contral",
-        "uid" : "3853871b8bf0220",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710040444,
-          "stop" : 1571710041768,
-          "duration" : 1324
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_sku",
-        "uid" : "1e4e6c11bac1c218",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710025847,
-          "stop" : 1571710027078,
-          "duration" : 1231
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_iot",
-        "uid" : "1f958a87cccee25f",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710033053,
-          "stop" : 1571710034475,
-          "duration" : 1422
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_add_station_news",
-        "uid" : "ea219725ec09c3e8",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710002195,
-          "stop" : 1571710014356,
-          "duration" : 12161
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_business",
-        "uid" : "77eae102e2931304",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710029417,
-          "stop" : 1571710030650,
-          "duration" : 1233
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestInfoNews.test_info_news",
-        "uid" : "4fd35068e4aee3cb",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710067177,
-          "stop" : 1571710067441,
-          "duration" : 264
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_vip",
-        "uid" : "9aaf2a67b860a65e",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710036833,
-          "stop" : 1571710038107,
-          "duration" : 1274
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test_station_news.test_info_news",
-        "uid" : "2a4b563bed63f747",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
-        "status" : "passed",
-        "time" : {
-          "start" : 1571710021928,
-          "stop" : 1571710023493,
-          "duration" : 1565
+          "start" : 1572245237626,
+          "stop" : 1572245238082,
+          "duration" : 456
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test_station_news.test_data_board",
-        "uid" : "e4c0d2cf15476b89",
-        "parentUid" : "102171113fbc7fc55ba61d64723e1f79",
+        "uid" : "f1cff1b05db09717",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
         "status" : "passed",
         "time" : {
-          "start" : 1571710018360,
-          "stop" : 1571710019605,
-          "duration" : 1245
+          "start" : 1572245181966,
+          "stop" : 1572245183234,
+          "duration" : 1268
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_iot",
+        "uid" : "a13f79eabad8edaa",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245196362,
+          "stop" : 1572245197773,
+          "duration" : 1411
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_info_news",
+        "uid" : "ed15ee5ce79d5d1e",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245185539,
+          "stop" : 1572245186963,
+          "duration" : 1424
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_vip",
+        "uid" : "f6b4dd2bf3793f68",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245200101,
+          "stop" : 1572245201350,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_sku",
+        "uid" : "2b93c5ba676cc40a",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245189274,
+          "stop" : 1572245190473,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestInfoNews.test_info_news",
+        "uid" : "73e518d664639319",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245230327,
+          "stop" : 1572245230623,
+          "duration" : 296
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_system_contral",
+        "uid" : "8f0bf4a99327360d",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245203724,
+          "stop" : 1572245205108,
+          "duration" : 1384
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_business",
+        "uid" : "efd77403afcb0022",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245192804,
+          "stop" : 1572245194037,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_add_station_news",
+        "uid" : "ee375588c11c029f",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245166077,
+          "stop" : 1572245177960,
+          "duration" : 11883
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_mall_contral",
+        "uid" : "4d9bb445bbaa1ae4",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245207431,
+          "stop" : 1572245208941,
+          "duration" : 1510
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_station_news.test_select_station",
+        "uid" : "4db59f5741a66034",
+        "parentUid" : "59f744da96c97fb24ad24b2db4d6ff2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572245211282,
+          "stop" : 1572245225992,
+          "duration" : 14710
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "102171113fbc7fc55ba61d64723e1f79"
+      "uid" : "59f744da96c97fb24ad24b2db4d6ff2f"
     } ],
     "uid" : "6f634e5bd13d28742f9de3dce0928a30"
   } ]

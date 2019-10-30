@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"font16\" href=\"javascript:;\" lay-href=\"mall/product/productList\">...</a> is not clickable at point (100, 231). Other element would receive the click: <div class=\"layui-layer-shade\" id=\"layui-layer-shade6\" times=\"6\" style=\"z-index: 19891019; background-color: rgb(0, 0, 0); opacity: 0.01;\"></div>\n  (Session info: chrome=77.0.3865.120)\n",
+      "children" : [ {
+        "name" : "Test_Mall_Contral.test_goods_contral",
+        "uid" : "b180a471c124f7e6",
+        "parentUid" : "9f5487b69e142a2bcd0f9f15d6426982",
+        "status" : "failed",
+        "time" : {
+          "start" : 1572245237626,
+          "stop" : 1572245238082,
+          "duration" : 456
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f5487b69e142a2bcd0f9f15d6426982"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
