@@ -33,6 +33,6 @@ class Test_Mall_Contral:
 
     def test_order_contral_texts(self):
         self.page.mall_contral.click_order_contral()
-        a = self.page.mall_contral_order_contral.get
+        a = self.page.mall_contral_order_contral.get_text_order_contral()
         print(a)
         assert a == ["订单编号", "收货人", "下单时间", "商家", "站", "局"]

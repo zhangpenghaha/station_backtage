@@ -75,5 +75,6 @@ class Page:
         return MallContralGoodsContral(self.driver)
 
     # MallContralOrderContral 商城管理-订单管理
+    @property
     def mall_contral_order_contral(self):
         return MallContralOrderContral(self.driver)

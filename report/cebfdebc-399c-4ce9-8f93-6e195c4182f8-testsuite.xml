@@ -1,0 +1,50 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1572589764699" stop="1572589774886">
+  <name>station_backtage.scripts.test_90_mall_contral</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1572589764699" status="passed" stop="1572589765041">
+      <name>Test_Mall_Contral.test_goods_contral</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16432-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1572589764875" status="passed" stop="1572589765041">
+          <name>获取添加商品文本</name>
+          <title>获取添加商品文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1572589767043" status="passed" stop="1572589774886">
+      <name>Test_Mall_Contral.test_order_contral_texts</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16432-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1572589767073" status="passed" stop="1572589774757">
+          <name>点击订单管理</name>
+          <title>点击订单管理</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1572589774757" status="passed" stop="1572589774885">
+          <name>获取添加商品文本</name>
+          <title>获取添加商品文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
