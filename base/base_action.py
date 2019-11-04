@@ -8,6 +8,7 @@ class BaseAction():
     def __init__(self, driver):
         self.driver = driver
 
+    # 元素定位
     def find_element(self, feature, timeout=10, poll=1.0):
         try:
             by = feature[0]
@@ -15,7 +16,7 @@ class BaseAction():
             return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(by, value))
         except :
             return None
-
+    # 多元素定位
     def find_elements(self, feature, timeout=10, poll=1.0):
         try:
             by = feature[0]
@@ -43,7 +44,6 @@ class BaseAction():
     def get_texts(self, feature):
         text_list = []
         a = self.find_elements(feature)
-        print(a)
         for i in a:
             l = i.text
             text_list.append(l)
@@ -57,18 +57,28 @@ class BaseAction():
 
     # 通过P标签文本找元素
     def find_by_text_p(self, text):
+        allure.attach("获取文本:" + text, text, allure.attach_type.TEXT)
         ele =  By.XPATH, '//p[text()="{}"]'.format(text)
         return self.find_element(ele).text
 
     # 通过span标签找文本
     def find_by_text_span(self, text):
+        allure.attach("获取文本:" + text, text, allure.attach_type.TEXT)
         ele =  By.XPATH, '//span[text()="{}"]'.format(text)
         return self.find_element(ele).text
 
     # 通过div标签找文本
     def find_by_text_div( self, text ):
+        allure.attach("获取文本:" + text, text, allure.attach_type.TEXT)
         ele = By.XPATH, '//div[text()="{}"]'.format(text)
         return self.find_element(ele).text
+
+    # 通过cite标签找文本
+    def find_by_text_cite( self, text ):
+        allure.attach("获取文本:" + text, text, allure.attach_type.TEXT)
+        ele = By.XPATH, '//cite[text()="{}"]'.format(text)
+        return self.find_element(ele).text
+
 
     def find_by_class_num(self, text, n):
         ele = By.CLASS_NAME, '{}'.format(text)
@@ -94,7 +104,7 @@ class BaseAction():
         return self.click(ele)
 
     # 向下滑动
-    def scroll_dwon(self, num, lenth):
+    def scroll_dwon(self, num=1, lenth=2000):
         """
         :param num: 滑动之后再滑动多少次,每次+1000
         :param lenth: 第一次滑动的位置
@@ -105,3 +115,9 @@ class BaseAction():
             self.driver.execute_script(js)
             lenth += 1000
             time.sleep(5)
+
+    # 日期选择框_选择日期
+    def select_data(self, text):
+        ele = By.XPATH, '*//div[ @class ="layui-laydate-content"]//td[text()="{}"]'.format(text)
+        self.click(ele)
+        self.click_span_text("确定")

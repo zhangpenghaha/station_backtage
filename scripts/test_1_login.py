@@ -5,7 +5,7 @@ from station_backtage.base.base_driver import InitDriver
 from station_backtage.page.page import Page
 
 
-class Test_station_news:
+class Test_Login:
 
     @classmethod
     def setup_class(cls):
@@ -26,7 +26,7 @@ class Test_station_news:
 
     # @pytest.mark.order("10")
     # @pytest.mark.parametrize("args",read_excel("test_data.xlsx", ""))
-    def test_add_station_news(self):
+    def test_login(self):
         # 输入用户名
         self.page.login.input_user_name("admin")
         # 输入密码

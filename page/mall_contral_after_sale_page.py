@@ -3,8 +3,10 @@ from selenium.webdriver.common.by import By
 from station_backtage.base.base_action import BaseAction
 
 
-class MallContralGoodsContral(BaseAction):
+class MallContralAfterSale(BaseAction):
 
+    # 售后管理
+    text_after_sale = By.XPATH, '*//cite[text()="售后管理"]'
     # 商品管理明细字段
     goods_texts = By.XPATH, '//div[@class="layui-table-header"]//span'
 
@@ -33,10 +35,6 @@ class MallContralGoodsContral(BaseAction):
     # 修改
     btn_revamp = By.LINK_TEXT, "修改"
 
-    @allure.step(title="获取添加商品文本")
-    def get_text_add_goods( self ):
-        return self.get_text(self.btn_add_goods)
-
-    def get_text_goods_texts(self):
-        return self.get_texts(self.goods_texts)
-
+    @allure.step(title="获取售后管理文本")
+    def get_text_after_sale( self ):
+        return self.get_text(self.text_after_sale)

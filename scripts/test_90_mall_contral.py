@@ -6,14 +6,15 @@ from station_backtage.page.page import Page
 
 
 class Test_Mall_Contral:
-
     @classmethod
     def setup_class(cls):
         cls.driver = InitDriver().get_driver()
         cls.page = Page(cls.driver)
-        cls.driver.get("http://192.168.100.222/stationAdmin/start/#/mall/product/productList")
+        cls.page.login.login()
+        # cls.driver.get("http://192.168.100.222/stationAdmin/start/#/mall/product/productList")
 
     def setup(self):
+        time.sleep(2)
         self.driver.get("http://192.168.100.222/stationAdmin/start/#/mall/product/productList")
 
     def teardown(self):

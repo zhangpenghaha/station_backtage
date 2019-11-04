@@ -7,10 +7,17 @@ from station_backtage.base.base_action import BaseAction
 
 class HomePage(BaseAction):
 
+    # 返回
+    btn_back = By.XPATH, '//span[text()="返回"]'
     # 切换站点
     select_station = By.ID, "headSelectStation"
     # 切换站点a标签
     select_station_a = By.XPATH, '//*[@id="headSelectStation"]/a'
+
+    # 开始时间
+    start_time = By.ID, "startTime"
+    # 结束时间
+    end_time = By.ID, "endTime"
 
     data_board =  By.XPATH,'//p[text()="数据看板"]'
     info_news = By.XPATH,'//p[text()="内容和信息"]'
@@ -75,3 +82,11 @@ class HomePage(BaseAction):
     def click_station_name(self, text):
         time.sleep(2)
         return self.click_div_text(text)
+
+    @allure.step(title='点击开始时间')
+    def click_start_time( self):
+        return self.click(self.start_time)
+
+    @allure.step(title='点击结束时间')
+    def click_end_time( self ):
+        return self.click(self.end_time)
