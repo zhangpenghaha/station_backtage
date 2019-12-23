@@ -1,0 +1,510 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1577095165010" stop="1577095171538">
+  <name>station_backtage.scripts.test_bigdata</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1577095165010" status="passed" stop="1577095165080">
+      <name>TestLogin.test_00_103080</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165082" status="passed" stop="1577095165112">
+      <name>TestLogin.test_01_103081</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165113" status="passed" stop="1577095165153">
+      <name>TestLogin.test_02_103082</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165155" status="failed" stop="1577095165299">
+      <name>TestLogin.test_03_103083</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_03_103083&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_03_103083&gt;
+args = '103083'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165305" status="failed" stop="1577095165355">
+      <name>TestLogin.test_04_103084</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_04_103084&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_04_103084&gt;
+args = '103084'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165358" status="passed" stop="1577095165385">
+      <name>TestLogin.test_05_103085</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165386" status="passed" stop="1577095165421">
+      <name>TestLogin.test_06_103086</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165422" status="passed" stop="1577095165454">
+      <name>TestLogin.test_07_103087</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165455" status="passed" stop="1577095165510">
+      <name>TestLogin.test_08_103088</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165511" status="passed" stop="1577095165542">
+      <name>TestLogin.test_09_103089</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095165546" status="passed" stop="1577095166591">
+      <name>TestLogin.test_0__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166593" status="passed" stop="1577095166647">
+      <name>TestLogin.test_10_103090</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166648" status="failed" stop="1577095166693">
+      <name>TestLogin.test_11_103091</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_11_103091&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_11_103091&gt;
+args = '103091'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166695" status="passed" stop="1577095166772">
+      <name>TestLogin.test_12_103092</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166773" status="passed" stop="1577095166832">
+      <name>TestLogin.test_13_103093</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166834" status="failed" stop="1577095166895">
+      <name>TestLogin.test_14_103094</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_14_103094&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_14_103094&gt;
+args = '103094'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166897" status="failed" stop="1577095166945">
+      <name>TestLogin.test_15_103095</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_15_103095&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_15_103095&gt;
+args = '103095'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095166947" status="failed" stop="1577095167001">
+      <name>TestLogin.test_16_103096</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_16_103096&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_16_103096&gt;
+args = '103096'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095167004" status="failed" stop="1577095167055">
+      <name>TestLogin.test_17_103097</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_17_103097&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_17_103097&gt;
+args = '103097'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095167058" status="failed" stop="1577095167112">
+      <name>TestLogin.test_18_103098</name>
+      <failure>
+        <message>IndexError: tuple index out of range</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_18_103098&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_bigdata.TestLogin testMethod=test_18_103098&gt;
+args = '103098'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "huiyuan"))
+    def test( self, args ):
+        args = str(args)
+        sql1 = 'select element_id from buried_point where element_id="{}"'.format(args)
+        rows = self.mysql_data.get_sql(sql1)
+&gt;       print(rows[0][0])
+E       IndexError: tuple index out of range
+
+test_bigdata.py:39: IndexError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095167115" status="passed" stop="1577095167146">
+      <name>TestLogin.test_19_103099</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095167147" status="passed" stop="1577095168202">
+      <name>TestLogin.test_1__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095168203" status="passed" stop="1577095168229">
+      <name>TestLogin.test_20_103100</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095168230" status="passed" stop="1577095169408">
+      <name>TestLogin.test_2__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095169409" status="passed" stop="1577095170485">
+      <name>TestLogin.test_3__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577095170486" status="passed" stop="1577095171538">
+      <name>TestLogin.test_4__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8020-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

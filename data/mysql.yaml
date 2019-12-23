@@ -1,0 +1,7 @@
+wt_bigdata :
+ host : "192.168.100.222"
+ port : "3306"
+ database : "wt_bigdata"
+ user : "root"
+ password : "cx9z1773"
+ charset : "utf8"
