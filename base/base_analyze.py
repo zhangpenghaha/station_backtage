@@ -22,5 +22,5 @@ def mysql_file(file_name, key):
         # data_list = list()
         # for i in case_data.values():
         #     data_list.append(i)
-        print(case_data)
+        # print(case_data)
         return case_data

@@ -5,3 +5,17 @@ wt_bigdata :
  user : "root"
  password : "cx9z1773"
  charset : "utf8"
+user-center :
+ host : "192.168.100.222"
+ port : "3306"
+ database : "user-center"
+ user : "root"
+ password : "cx9z1773"
+ charset : "utf8"
+chezhantong :
+ host : "rm-uf64620ae95f739x6lo.mysql.rds.aliyuncs.com"
+ port : "3306"
+ database : "wt_bigdata"
+ user : "wtbigdata"
+ password : "j02XqSRzue60yQJ931"
+ charset : "utf8"

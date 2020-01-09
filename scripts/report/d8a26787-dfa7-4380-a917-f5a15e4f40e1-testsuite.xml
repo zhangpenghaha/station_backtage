@@ -1,0 +1,1737 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1578576296070" stop="1578576315229">
+  <name>station_backtage.scripts.test_piaowu</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1578576296070" status="passed" stop="1578576296170">
+      <name>TestLogin.test_00_103138</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296172" status="failed" stop="1578576296244">
+      <name>TestLogin.test_01_103139</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_01_103139&gt;
+ele = '103139', event_type = '1'
+event_type_3 = '【banner图片】点击量\n（存在未来多个banner的情况）'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_01_103139&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_01_103139&gt;
+ele = '103139', event_type = '1'
+event_type_3 = '【banner图片】点击量\n（存在未来多个banner的情况）'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296247" status="passed" stop="1578576296273">
+      <name>TestLogin.test_02_103140</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296274" status="passed" stop="1578576296293">
+      <name>TestLogin.test_03_103141</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296295" status="passed" stop="1578576296318">
+      <name>TestLogin.test_04_103142</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296319" status="passed" stop="1578576296365">
+      <name>TestLogin.test_05_103143</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296366" status="passed" stop="1578576296411">
+      <name>TestLogin.test_06_103144</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296412" status="passed" stop="1578576296447">
+      <name>TestLogin.test_07_103145</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296449" status="passed" stop="1578576296479">
+      <name>TestLogin.test_08_103146</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296480" status="passed" stop="1578576296519">
+      <name>TestLogin.test_09_103147</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296521" status="passed" stop="1578576296549">
+      <name>TestLogin.test_10_103148</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296550" status="passed" stop="1578576296615">
+      <name>TestLogin.test_11_103149</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296616" status="passed" stop="1578576296649">
+      <name>TestLogin.test_12_103150</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296651" status="passed" stop="1578576296702">
+      <name>TestLogin.test_13_103151</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296703" status="passed" stop="1578576296729">
+      <name>TestLogin.test_14_103152</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296730" status="passed" stop="1578576296765">
+      <name>TestLogin.test_15_103153</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296767" status="passed" stop="1578576296793">
+      <name>TestLogin.test_16_103154</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296794" status="passed" stop="1578576296819">
+      <name>TestLogin.test_17_103155</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296820" status="passed" stop="1578576296846">
+      <name>TestLogin.test_18_103156</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296847" status="passed" stop="1578576296873">
+      <name>TestLogin.test_19_103157</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296875" status="failed" stop="1578576296923">
+      <name>TestLogin.test_20_103158</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_20_103158&gt;
+ele = '103158', event_type = '1', event_type_3 = '【购票优惠券】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_20_103158&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_20_103158&gt;
+ele = '103158', event_type = '1', event_type_3 = '【购票优惠券】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296926" status="passed" stop="1578576296960">
+      <name>TestLogin.test_21_103159</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296961" status="passed" stop="1578576296983">
+      <name>TestLogin.test_22_103160</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576296984" status="passed" stop="1578576297016">
+      <name>TestLogin.test_23_103161</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297019" status="passed" stop="1578576297048">
+      <name>TestLogin.test_24_103162</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297049" status="passed" stop="1578576297075">
+      <name>TestLogin.test_25_103163</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297076" status="passed" stop="1578576297105">
+      <name>TestLogin.test_26_103164</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297107" status="passed" stop="1578576297133">
+      <name>TestLogin.test_27_103165</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297135" status="passed" stop="1578576297165">
+      <name>TestLogin.test_28_103166</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297167" status="passed" stop="1578576297209">
+      <name>TestLogin.test_29_103167</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297210" status="passed" stop="1578576297250">
+      <name>TestLogin.test_30_103168</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297255" status="passed" stop="1578576297289">
+      <name>TestLogin.test_31_103169</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297290" status="passed" stop="1578576297316">
+      <name>TestLogin.test_32_103170</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297317" status="passed" stop="1578576297354">
+      <name>TestLogin.test_33_103171</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297355" status="passed" stop="1578576297381">
+      <name>TestLogin.test_34_103172</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297383" status="passed" stop="1578576297411">
+      <name>TestLogin.test_35_103173</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297412" status="passed" stop="1578576297441">
+      <name>TestLogin.test_36_103174</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297442" status="passed" stop="1578576297471">
+      <name>TestLogin.test_37_103175</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297477" status="passed" stop="1578576297520">
+      <name>TestLogin.test_38_103176</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297522" status="passed" stop="1578576297549">
+      <name>TestLogin.test_39_103177</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297551" status="passed" stop="1578576297580">
+      <name>TestLogin.test_40_103178</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297582" status="passed" stop="1578576297611">
+      <name>TestLogin.test_41_103179</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297612" status="passed" stop="1578576297642">
+      <name>TestLogin.test_42_103180</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297643" status="passed" stop="1578576297661">
+      <name>TestLogin.test_43_103181</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297662" status="passed" stop="1578576297680">
+      <name>TestLogin.test_44_103182</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297681" status="passed" stop="1578576297708">
+      <name>TestLogin.test_45_103183</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297709" status="passed" stop="1578576297733">
+      <name>TestLogin.test_46_103184</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297734" status="failed" stop="1578576297792">
+      <name>TestLogin.test_47_103185</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_47_103185&gt;
+ele = '103185', event_type = '1', event_type_3 = '【抢票优惠券】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_47_103185&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_47_103185&gt;
+ele = '103185', event_type = '1', event_type_3 = '【抢票优惠券】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297795" status="passed" stop="1578576297823">
+      <name>TestLogin.test_48_103186</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297824" status="passed" stop="1578576297862">
+      <name>TestLogin.test_49_103187</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297864" status="passed" stop="1578576297899">
+      <name>TestLogin.test_50_103188</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297901" status="passed" stop="1578576297929">
+      <name>TestLogin.test_51_103189</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297931" status="passed" stop="1578576297962">
+      <name>TestLogin.test_52_103190</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297963" status="passed" stop="1578576297990">
+      <name>TestLogin.test_53_103191</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576297991" status="passed" stop="1578576298027">
+      <name>TestLogin.test_54_103192</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298028" status="passed" stop="1578576298056">
+      <name>TestLogin.test_55_103193</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298058" status="passed" stop="1578576298083">
+      <name>TestLogin.test_56_103194</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298084" status="passed" stop="1578576298110">
+      <name>TestLogin.test_57_103195</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298111" status="failed" stop="1578576298149">
+      <name>TestLogin.test_58_103196</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_58_103196&gt;
+ele = '103196', event_type = '1', event_type_3 = '【我也要抢票】按钮点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_58_103196&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_58_103196&gt;
+ele = '103196', event_type = '1', event_type_3 = '【我也要抢票】按钮点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298152" status="passed" stop="1578576298180">
+      <name>TestLogin.test_59_103197</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298181" status="failed" stop="1578576298232">
+      <name>TestLogin.test_60_103198</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_60_103198&gt;
+ele = '103198', event_type = '1', event_type_3 = '【分享好友助力】按钮点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_60_103198&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_60_103198&gt;
+ele = '103198', event_type = '1', event_type_3 = '【分享好友助力】按钮点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298236" status="passed" stop="1578576298271">
+      <name>TestLogin.test_61_103199</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298272" status="passed" stop="1578576298301">
+      <name>TestLogin.test_62_103200</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298303" status="passed" stop="1578576298330">
+      <name>TestLogin.test_63_103201</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298331" status="passed" stop="1578576298368">
+      <name>TestLogin.test_64_103202</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298369" status="passed" stop="1578576298404">
+      <name>TestLogin.test_65_103203</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298406" status="passed" stop="1578576298434">
+      <name>TestLogin.test_66_103204</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298435" status="failed" stop="1578576298498">
+      <name>TestLogin.test_67_103205</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_67_103205&gt;
+ele = '103205', event_type = '1', event_type_3 = '【我的优惠券-去使用】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 1
+E               IndexError: tuple index out of range
+
+test_piaowu.py:34: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_67_103205&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_67_103205&gt;
+ele = '103205', event_type = '1', event_type_3 = '【我的优惠券-去使用】点击量'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+&gt;               assert 0==1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298505" status="passed" stop="1578576298543">
+      <name>TestLogin.test_68_103206</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576298545" status="failed" stop="1578576299600">
+      <name>TestLogin.test_69__</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_69__&gt;
+ele = '畅行票购票', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 2 and m == 3
+E               IndexError: tuple index out of range
+
+test_piaowu.py:50: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_69__&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_69__&gt;
+ele = '畅行票购票', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+                assert str(rows[0][0]) == args and n == 2 and m == 3
+            except IndexError:
+&gt;               assert 0 == 1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:52: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576299605" status="passed" stop="1578576300647">
+      <name>TestLogin.test_70__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576300648" status="passed" stop="1578576301676">
+      <name>TestLogin.test_71_12306_</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576301678" status="failed" stop="1578576302729">
+      <name>TestLogin.test_72__</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_72__&gt;
+ele = '预订车票', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 2 and m == 3
+E               IndexError: tuple index out of range
+
+test_piaowu.py:50: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_72__&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_72__&gt;
+ele = '预订车票', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+                assert str(rows[0][0]) == args and n == 2 and m == 3
+            except IndexError:
+&gt;               assert 0 == 1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:52: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576302734" status="passed" stop="1578576303770">
+      <name>TestLogin.test_73__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576303771" status="failed" stop="1578576304814">
+      <name>TestLogin.test_74__</name>
+      <failure>
+        <message>AssertionError: assert ('抢票页面' == '抢票页面'
+    抢票页面 and 0 == 2)</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_74__&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_74__&gt;
+ele = '抢票页面', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 2 and m == 3
+E               AssertionError: assert ('抢票页面' == '抢票页面'
+E                   抢票页面 and 0 == 2)
+
+test_piaowu.py:50: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576304818" status="passed" stop="1578576305865">
+      <name>TestLogin.test_75__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576305867" status="passed" stop="1578576306894">
+      <name>TestLogin.test_76__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576306895" status="failed" stop="1578576307943">
+      <name>TestLogin.test_77__</name>
+      <failure>
+        <message>AssertionError: assert 0 == 1</message>
+        <stack-trace>self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_77__&gt;
+ele = '抢票失败抢票详情', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 2 and m == 3
+E               IndexError: tuple index out of range
+
+test_piaowu.py:50: IndexError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_77__&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_77__&gt;
+ele = '抢票失败抢票详情', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+                assert str(rows[0][0]) == args and n == 2 and m == 3
+            except IndexError:
+&gt;               assert 0 == 1
+E               AssertionError: assert 0 == 1
+
+test_piaowu.py:52: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576307948" status="passed" stop="1578576308992">
+      <name>TestLogin.test_78__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576308993" status="passed" stop="1578576310016">
+      <name>TestLogin.test_79__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576310018" status="passed" stop="1578576311052">
+      <name>TestLogin.test_80__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576311053" status="failed" stop="1578576312094">
+      <name>TestLogin.test_81__</name>
+      <failure>
+        <message>AssertionError: assert ('抢票助力页' == '抢票助力页'
+    抢票助力页 and 0 == 2)</message>
+        <stack-trace>a = (&lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_81__&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+F:\python_1\lib\site-packages\parameterized-0.7.0-py3.6.egg\parameterized\parameterized.py:518: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;station_backtage.scripts.test_piaowu.TestLogin testMethod=test_81__&gt;
+ele = '抢票助力页', event_type = '2', event_type_3 = '3'
+
+    @parameterized.expand(read_excel("test_data.xlsx", "piaowu"))
+    def test( self, ele, event_type, event_type_3):
+        n = 0
+        m = 0
+        if event_type == "1":
+            args = str(ele)
+            sql1 = 'select element_id, event_type from buried_point where app_id=12 and element_id="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            try :
+                print(rows)
+                for row in rows:
+                    if row[1] == 1:
+                        n = row[1]
+                assert str(rows[0][0]) == args and n == 1
+            except IndexError :
+                assert 0==1
+        if event_type == "2":
+            args = str(ele)
+            print(args)
+            sql1 = 'select page_name,event_type from buried_point where app_id=12 and page_name="{}"'.format(args)
+            rows = self.mysql_data.get_sql(sql1)
+            time.sleep(1)
+            try:
+                print(rows)
+                for row in rows:
+                    if row[1] == 2:
+                        n = row[1]
+                    if row[1] == 3:
+                        m = row[1]
+&gt;               assert str(rows[0][0]) == args and n == 2 and m == 3
+E               AssertionError: assert ('抢票助力页' == '抢票助力页'
+E                   抢票助力页 and 0 == 2)
+
+test_piaowu.py:50: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576312099" status="passed" stop="1578576313138">
+      <name>TestLogin.test_82__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576313139" status="passed" stop="1578576314177">
+      <name>TestLogin.test_83__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578576314178" status="passed" stop="1578576315229">
+      <name>TestLogin.test_84__</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="828-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
